@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #611b1b;
+    margin: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+video {
+    width: 100%;
+    border: 2px solid #6e3333;
+    border-radius: 10px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: blanchedalmond;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: chocolate;
+}
+
+.album {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.albumfoto {
+    width: 23%; 
+    margin-bottom: 10px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    object-fit: cover; 
+    box-sizing: border-box; 
+}
+
